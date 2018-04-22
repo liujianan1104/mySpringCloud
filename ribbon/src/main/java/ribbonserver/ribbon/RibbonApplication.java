@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableHystrix
+//@EnableHystrix
 public class RibbonApplication {
 
     public static void main(String[] args) {
